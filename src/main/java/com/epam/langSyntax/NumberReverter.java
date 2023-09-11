@@ -2,7 +2,7 @@ package com.epam.langSyntax;
 
 public class NumberReverter {
 
-    public void reverse(int number) {
+    public void revert(int number) {
 
         int reversedNumber = 0;
         while(number > 0) {

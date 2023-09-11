@@ -18,7 +18,7 @@ class NumberReverterTest extends BaseIOTest {
     void revertReverts457() {
         NumberReverter reverter = new NumberReverter();
 
-        reverter.reverse(457);
+        reverter.revert(457);
 
         assertEquals("754\n", updateLineSpliterators(outContent.toString()));
     }
@@ -27,7 +27,7 @@ class NumberReverterTest extends BaseIOTest {
     void revertReverts334() {
         NumberReverter reverter = new NumberReverter();
 
-        reverter.reverse(334);
+        reverter.revert(334);
 
         assertEquals("433\n", updateLineSpliterators(outContent.toString()));
     }
