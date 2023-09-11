@@ -13,7 +13,4 @@ public class NumberReverter {
         System.out.println(reversedNumber);
     }
 
-    public static void main(String[] args) {
-        new NumberReverter().reverse(433);
-    }
 }

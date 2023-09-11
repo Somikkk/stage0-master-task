@@ -6,8 +6,5 @@ public class Power {
         System.out.println((int)Math.pow( numberToPrint, power));
     }
 
-    public static void main(String[] args) {
-        new Power().printPower(10, 3);
-    }
 
 }
