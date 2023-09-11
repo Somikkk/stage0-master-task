@@ -2,18 +2,18 @@ package com.epam.langSyntax;
 
 public class NumberReverter {
 
-    public void revert(int number) {
-        if(number < 100 || number > 999) {
-            System.out.println("Input number must be a 3-digit number.");
-        } else {
-            int reversedNumber = 0;
-            int remainder;
+    public void reverse(int number) {
 
-            while(number != 0) {
-                remainder = number % 10;
-                reversedNumber = reversedNumber * 10 + remainder;
-            }
+        int reversedNumber = 0;
+        while(number > 0) {
+            int digit = number % 10;
+            reversedNumber = reversedNumber * 10 + digit;
+            number = number / 10;
         }
+        System.out.println(reversedNumber);
     }
 
+    public static void main(String[] args) {
+        new NumberReverter().reverse(433);
+    }
 }

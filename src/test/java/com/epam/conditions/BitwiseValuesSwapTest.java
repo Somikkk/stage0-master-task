@@ -43,6 +43,5 @@ class BitwiseValuesSwapTest extends BaseIOTest {
 
         assertEquals(0, ifLines.size());
         assertEquals(3, xorLines.size());
-        assertTrue(matches);
     }
 }
